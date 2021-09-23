@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+ int main ()
+ 
+ {
+    double a,b,c;
+     cout<<"podaj liczbe a: "; cin>>a;
+     cout<<"podaj liczbe b: "; cin>>b;
+    c=a/b:
+    cout<<:"wynik dzielenia to: ";
+    cout<<a<<" / "<<b<<"<<c<< endl;
+ }
+    
