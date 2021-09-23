@@ -1,0 +1,32 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+
+double a, b, c;
+
+cout <<"podaj pierwsza liczbe: " <<endl;
+cin >> a;
+cout <<"podaj druga liczbe: " <<endl;
+cin >> b;
+cout <<"podaj trzecia liczbe: " <<endl;
+cin >> c;
+
+if (a >= b && a >= c) {
+
+ cout <<"najwieksza jest liczba " << a;
+ 
+ }
+ 
+ else if (b >= a && c >= b) { 
+  cout <<"najwieksza jest liczba " << b;
+  
+ }
+ 
+ else
+ {
+    cout <<"najwieksza jest liczba " << c;
+    
+    }
+    {
